@@ -2,9 +2,12 @@
   "name": "portfolio-ui-web-mobile-community",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "dependencies": {},
+  "scripts": {
+    "dev": "diy-pwa dev",
+    "start": "diy-pwa dev"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "diy-pwa": "latest"
+  }
 }
